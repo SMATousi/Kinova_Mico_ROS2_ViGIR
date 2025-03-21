@@ -1,0 +1,8 @@
+kinova_number_of_robots: 2
+kinova_robots:
+  - serial: PJ00650001143170001
+    type: m1n6s200
+    name: robot_arm_left
+  - serial: robot1
+    type: m1n6s200
+    name: robot_arm_right
