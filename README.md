@@ -1,3 +1,6 @@
+# ViGIR Kinova Mico ROS 2 Repo
+Sometimes when you clone this into the workspace, you start getting some errors regarding some packages. you just need to install them with ``` pip install ... ```.
+
 # ROS2 Humble
 ```
 colcon build --symlink-install --packages-select kinova_msgs kinova_bringup kinova_driver kinova_description kinova_demo
