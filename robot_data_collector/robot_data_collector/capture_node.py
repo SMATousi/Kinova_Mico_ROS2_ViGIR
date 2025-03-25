@@ -76,7 +76,7 @@ class RobotDataCollector(Node):
             print("[DEBUG] No data to capture yet.")
 
     def save_data(self):
-        save_dir = os.path.expanduser("/home/macula/SMATousi/projects/simone_says/dev_ws/data")
+        save_dir = os.path.expanduser("./data")
         os.makedirs(save_dir, exist_ok=True)
         filename = os.path.join(save_dir, f"{self.capture_name}.json")
 
